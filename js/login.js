@@ -11,10 +11,10 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     
     // DO NOT VERIFY email passworld n cliend side
     // step 4: verify email and password
-    if (email === "saiful@gmail.con" && password === "1234sa") {
-        console.log('valid user');
+    if (email === "saiful@gmail.com" && password === "1234sa") {
+        window.location.href = 'bank.html';
     }else{
-        console.log('Invalid user');
+        alert('Invalid user');
     }
 
 })
